@@ -9,7 +9,7 @@ int main() {
     printf("Enter Principal, Rate and Time: ");
     scanf("%f %f %f", &principal, &rate, &time);
 
-    // Calculate Simple Interest
+    
     simpleInterest = (principal * rate * time) / 100;
 
     compoundInterest = principal * pow((1 + rate / 100), time) - principal;
@@ -18,4 +18,5 @@ int main() {
 
     return 0;
 }
+
 
